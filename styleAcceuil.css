@@ -1,0 +1,68 @@
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./code-1076536_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+    
+}
+
+header{
+    color: white;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header ul li {
+    margin-left: 35px;
+    list-style: none;
+}
+
+header #contact{
+    color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+section {
+    position: absolute;
+    left: 650px;
+    top: 400px;
+}
+
+section a {
+    padding: 30px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    width: 300px; text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+
+    transition: 0.2s;
+    
+}
+
+section a:hover{
+
+    background-color: whitesmoke;
+    
+}
+
+
